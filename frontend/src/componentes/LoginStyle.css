@@ -1,0 +1,169 @@
+body {
+  background: #1f2a4a !important;
+  margin: 0;
+  padding: 0;
+}
+
+.login-hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2d3f67 0%, #223255 55%, #1b2443 100%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.login-hero::before,
+.login-hero::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(0.5px);
+  z-index: 0;
+}
+
+.login-hero::before {
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle at 30% 30%, #7e2bf6, #5a1fb0);
+  top: -60px;
+  right: 18%;
+  opacity: 0.85;
+  animation: floatCircle1 12s ease-in-out infinite;
+}
+
+.login-hero::after {
+  width: 220px;
+  height: 220px;
+  background: radial-gradient(circle at 40% 40%, #7e2bf6, #5a1fb0);
+  bottom: -80px;
+  right: 8%;
+  opacity: 0.75;
+  animation: floatCircle2 15s ease-in-out infinite;
+}
+
+@keyframes floatCircle1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-80px, 40px);
+  }
+  50% {
+    transform: translate(-30px, 120px);
+  }
+  75% {
+    transform: translate(50px, 60px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes floatCircle2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(60px, -40px);
+  }
+  50% {
+    transform: translate(-50px, -100px);
+  }
+  75% {
+    transform: translate(-100px, 20px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.login-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.login-hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.login-hero-title span {
+  color: #9bb5ff;
+}
+
+.login-hero-text {
+  color: #c4cff0;
+  max-width: 520px;
+}
+
+.login-form-card {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 1rem;
+  padding: 2.2rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 20px 50px rgba(10, 15, 30, 0.35);
+  backdrop-filter: blur(10px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-form-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 26px 60px rgba(10, 15, 30, 0.4);
+}
+
+.login-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #3b73d1;
+  background: rgba(59, 115, 209, 0.12);
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+
+.login-form-subtitle {
+  color: #6c7aa6;
+  font-size: 0.95rem;
+}
+
+.login-form-card .form-floating > label {
+  color: #7482aa;
+}
+
+.login-input {
+  border-radius: 0.75rem;
+  border: 1px solid #dbe3f8;
+  background: #f6f8ff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.login-input:focus {
+  border-color: #5c85ff;
+  background: #ffffff;
+  box-shadow: 0 0 0 0.2rem rgba(92, 133, 255, 0.2);
+}
+
+.login-submit {
+  border-radius: 0.75rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 10px 18px rgba(59, 115, 209, 0.25);
+}
+
+.login-form-card .btn-primary {
+  background: linear-gradient(135deg, #4c7df3, #2f61b6);
+  border-color: transparent;
+}
+
+.login-form-card .btn-primary:hover {
+  background: linear-gradient(135deg, #3a6ae2, #2a56a3);
+  border-color: transparent;
+}

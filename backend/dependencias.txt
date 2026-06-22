@@ -1,0 +1,12 @@
+npm install mysql2
+npm install --save express
+npm install express
+npm install sequelize
+npm install cors
+npm install dotenv
+npm install openai
+npm install axios
+
+Variables de entorno necesarias en archivo .env:
+DEEPSEEK_API_KEY=api_key_de_openrouter
+JUDGE0_API_KEY=key_de_rapidapi

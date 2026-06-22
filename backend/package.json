@@ -1,0 +1,23 @@
+{
+  "name": "backendloginreactnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Aplicacion.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.18.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.15.3",
+    "openai": "^6.44.0",
+    "sequelize": "^6.37.7"
+  }
+}
