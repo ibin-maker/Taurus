@@ -5,7 +5,7 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?logo=mysql)](https://mysql.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.x-7952B3?logo=bootstrap)](https://getbootstrap.com/)
 
-## 📋 Tabla de Contenidos
+##  Tabla de Contenidos
 
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Objetivos](#objetivos)
@@ -25,11 +25,11 @@
 
 ---
 
-## 🚀 Descripción del Proyecto
+##  Descripción del Proyecto
 
 **TAURUS** es una plataforma web educativa e interactiva que permite a los usuarios aprender, practicar y desarrollar código Python directamente desde el navegador, sin necesidad de instalar nada localmente.
 
-### ✨ Características Principales
+### Características Principales
 
 - ✍️ **Editor de código en línea** con ejecución segura
 - 📚 **Catálogo de ejercicios** por niveles
@@ -39,13 +39,13 @@
 - 🔒 **Seguridad por diseño** con sanitización de entradas
 - 📈 **Escalable** para cientos de usuarios concurrentes
 
-### 🎯 Metáfora del Elevador
+###  Metáfora del Elevador
 
 > *"Para estudiantes y programadores que quieren aprender Python sin complicaciones, que necesitan un entorno práctico con retroalimentación inmediata y asistencia inteligente, TAURUS es una plataforma web educativa que permite escribir instrucciones en español, generar y optimizar código Python, y recibir corrección de errores al instante."*
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 ### Generales
 
@@ -68,7 +68,7 @@
 
 ---
 
-## 📋 Requisitos Funcionales
+## Requisitos Funcionales
 
 | ID | Requerimiento | Métrica de Validación |
 |----|---------------|----------------------|
@@ -90,7 +90,7 @@
 
 ---
 
-## 📜 Reglas de Negocio
+##  Reglas de Negocio
 
 <details>
 <summary><b>RNE-01: Autenticación y Sesión</b> (haz clic para expandir)</summary>
@@ -175,7 +175,7 @@
 
 ---
 
-## 🏗️ Arquitectura
+##  Arquitectura
 
 ### Flujo de la Aplicación
 
