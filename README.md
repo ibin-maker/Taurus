@@ -23,7 +23,11 @@
 - [Contribución](#contribución)
 - [Equipo](#equipo)
 ---
+## 📹 Video de entrega del proyecto
 
+Puedes ver o descargar el video de la entrega del proyecto desde Google Drive:
+
+[🎬 Ver/Descargar video de entrega](https://drive.google.com/file/d/1V0M_kJDCMKHj5ayudf0EPLH7sN_3WjIQ/view?usp=sharing)
 ##  Descripción del Proyecto
 
 **TAURUS** es una plataforma web educativa e interactiva que permite a los usuarios aprender, practicar y desarrollar código Python directamente desde el navegador, sin necesidad de instalar nada localmente.
