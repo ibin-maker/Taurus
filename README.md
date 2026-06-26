@@ -22,7 +22,6 @@
 - [Seguridad](#seguridad)
 - [Contribución](#contribución)
 - [Equipo](#equipo)
-- [Video Entrega](#https://drive.google.com/drive/folders/1V0M_kJDCMKHj5ayudf0EPLH7sN_3WjIQ?usp=drive_link)
 ---
 
 ##  Descripción del Proyecto
